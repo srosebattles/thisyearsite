@@ -1,0 +1,121 @@
+{
+box-sizing:border-box;
+}
+
+html, body {
+  font-family: "Karla", Helvetica, sans-serif;
+  color:#151617;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  background-image: url(http://makethisyear.com/images/pattern-dark.png);
+  text-align: justify;
+  padding: 50px, 0, 80px, 0;
+}
+
+h1 {
+  color: purple;
+  text-align: justify;;
+  max-width: 42%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 200%;
+}
+
+.first {
+  color: whitesmoke;
+  text-align: justify;
+  padding: 0;
+  max-width: 42%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 250%;
+  line-height: 1.5
+}
+
+.second {
+  color: whitesmoke;
+  text-align: justify;
+  padding: 0;
+  max-width: 42%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 150%;
+  line-height: 1.5;
+}
+
+.email {
+  font-size: 25;
+  width: 15em;
+  border-radius: 5px;
+
+}
+
+button {
+  background-color: darkmagenta;
+  border-color: currentColor;
+  color: whitesmoke;
+  font-size: 25;
+  padding: 10;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+section {
+  margin-top: 5%;
+  text-align: justify;
+  padding: 0;
+  max-width: 43%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  list-style: none;
+  display: block;
+}
+
+li {
+  display: block;
+  float: left;
+  width: 180px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+ul li:first-child {
+  margin-left: 0;
+}
+
+ul li:last-child {
+  margin-right: 0;
+  float: right;
+}
+
+.typ {
+  font-size: 18px;
+}
+
+.critters {
+  float: none;
+  margin-top: 300;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+footer {
+  font-size: 16px;
+  color: gray;
+  margin-top: -15px;
+  margin-bottom: 150px;
+}
+
+.jigglypuff {
+  margin-top: 200px;
+  text-align: justify;
+  font-size: 150%;
+  line-height: 1.5;
+}
